@@ -32,7 +32,7 @@ export function Header() {
 
   const setSearchValue = useCallback(
     (e) => {
-      if (search) {
+      if (e.target.value) {
         history.push(
           `/categories/${currentCategoryId}/?search=${e.target.value}`
         );

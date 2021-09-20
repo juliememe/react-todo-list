@@ -42,6 +42,8 @@ export const Category = ({ setCategoryId, category }: CategoryProps) => {
       setCategoryId(category.id);
       if (searchValue) {
         history.push(`/categories/${category.id}/?search=${searchValue}`);
+      } else {
+        history.push(`/categories/${category.id}`);
       }
     }
   }, [category.id, currentTodo, searchValue, history, setCategoryId]);
