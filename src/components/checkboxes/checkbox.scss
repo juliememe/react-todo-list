@@ -1,0 +1,15 @@
+.form-check {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-start;
+
+  &-input {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+}
+
+.form-check-input[type="checkbox"] {
+  border: 1px solid rgba(103, 170, 238, 0.67);
+
+}

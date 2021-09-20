@@ -1,0 +1,12 @@
+.category {
+  &-invisible {
+    max-height: 43px;
+    overflow-y: hidden;
+    transition: max-height .35s ease-in;
+  }
+
+  &-visible {
+    max-height: 100%;
+    transition: max-height .35s ease-out;
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  flex-grow: 0;
+
+  &__wrapper {
+    max-width: 1140px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  }
+}

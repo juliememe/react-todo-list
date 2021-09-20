@@ -1,0 +1,35 @@
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid rgba(137, 85, 123, 0.55);
+  justify-content: space-between;
+  background-color: white;
+  margin-bottom: 5px;
+
+  &__done {
+    text-decoration: line-through;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.btn-item {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(160, 158, 158, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 14px;
+  margin-right: 13px;
+}
+
+.btn-item:hover {
+  transform: scale(1.1);
+}

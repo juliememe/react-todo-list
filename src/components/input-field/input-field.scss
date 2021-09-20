@@ -1,0 +1,15 @@
+.form__add{
+  display: flex;
+  flex-direction: row;
+
+}
+.btn-add{
+  min-width: 100px;
+  margin-left: 5px;
+  transition: 0.2s;
+
+}
+.btn-add:hover{
+  background-color: #cadef3;
+  transition: 0.2s;
+}
