@@ -25,10 +25,11 @@ function App() {
             <AddForms />
             <Switch>
               <Route
+                exact
                 path="/categories/:id/todo/:todoId"
                 component={CategoriesPage}
               />
-              <Route path="/categories/:id" component={CategoriesPage} />
+              <Route exact path="/categories/:id" component={CategoriesPage} />
               <Route exact path="/" component={CategoriesPage} />
               <Route path="*" component={() => <div>Not found</div>} />
             </Switch>
