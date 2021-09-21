@@ -1,6 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./logo.scss";
 
-function Logo(){
-return <h1>To-Do List</h1>
+function Logo() {
+  return (
+    <Link to="/" className={"logo"}>
+      To-Do List
+    </Link>
+  );
 }
 export default Logo;
